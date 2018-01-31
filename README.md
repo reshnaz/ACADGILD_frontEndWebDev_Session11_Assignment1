@@ -1,6 +1,19 @@
 # S11A1
 
+Note: All output related files are under "src/app" folder.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
+
+## Problem Statement
+1. Create a form with 3 inputs, 1 dropdown field, and a field that will be used for
+inputting the date, and a button.
+2. The dropdown field’s filed values should display on initialization using services.
+3. The input and the dropdown fields should use Two-Way Binding. Create a model
+for the fields and initialize them on ngOnInit().
+4. Create a service for sending and retrieving the data.
+5. Create a function which will bind with the (ngSubmit). Once you click that button,
+it should send the data in the parameter and it should display the data in View. Use
+the pipe to show the date in 9/3/2010 this format.
 
 ## Development server
 
